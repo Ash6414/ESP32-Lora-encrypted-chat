@@ -1,4 +1,4 @@
-# FreeChat  
+# Gossiper
 ### Privacy, consent, and community care in a local ESP32 + LoRa messaging system
 
 This project is a small encrypted messaging system built with **two ESP32-WROOM-D boards** and **two RYLR 915 MHz LoRa modules**. Each ESP32 creates a private Wi-Fi access point and hosts a local web page that allows a user to send and receive messages. The devices communicate with each other over **LoRa**, while the Wi-Fi side is used only for local access from a phone or laptop.
