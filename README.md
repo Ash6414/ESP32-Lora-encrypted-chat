@@ -66,10 +66,6 @@ For each ESP32 + LoRa pair:
 - **LoRa VDD → ESP32 3.3V**
 - **LoRa GND → ESP32 GND**
 
-### UART mapping
-- ESP32 GPIO17 = TX
-- ESP32 GPIO16 = RX
-
 ---
 
 ## Frequency
@@ -82,3 +78,6 @@ The sketch uses:
 
 ```cpp
 const uint32_t LORA_BAND = 915000000;
+```
+#Disclaimer
+This Code is Free and open source. Don't break the law with it. If you do its completely on you. Check your frequency band and power before transmission as to not upset the fragile FCC or FAA. 
